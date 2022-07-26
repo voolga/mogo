@@ -1,0 +1,54 @@
+// Название	font-weight
+// Thin / Hair	100
+// Extra Light	200
+// Light	300
+// Regular	400
+// Medium	500
+// Semi Bold	600
+// Bold	700
+// Extra Bold	800
+// Black / Heavy / Ultra	900
+
+@font-face {
+    font-family: "KaushanScript400";
+    src: url("../assets/fonts/Kaushan_Script/KaushanScript-Regular.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserrat700";
+    src: url("../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("truetype");
+    // url("../fonts/WebFont.eot?iefix") format("eot"), url("../fonts/WebFont.woff") format("woff"),
+    // url("../fonts/WebFont.ttf") format("truetype"), url("../fonts/WebFont.svg#webfont") format("svg");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "KaushanScriptRegular";
+    src: url("../assets/fonts/Kaushan_Script/KaushanScript-Regular.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Raleway400";
+    src: url("../assets/fonts/Raleway/Raleway-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Raleway700";
+    src: url("../assets/fonts/Raleway/Raleway-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Raleway900";
+    src: url("../assets/fonts/Raleway/Raleway-Black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}
